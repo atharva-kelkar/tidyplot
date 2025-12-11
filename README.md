@@ -17,6 +17,12 @@ cd tidyplot/
 pip install .
 ```
 
+You can also directly install without explicitly cloning the git repo by using
+
+```
+pip install git+https://github.com/atharva-kelkar/tidyplot.git
+```
+
 ## Example usage
 
 ```
