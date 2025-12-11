@@ -13,6 +13,7 @@ git clone https://github.com/atharva-kelkar/tidyplot.git # Replace with SSH URL 
 Then install with
 
 ```
+cd tidyplot/
 pip install .
 ```
 
