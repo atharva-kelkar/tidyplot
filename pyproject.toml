@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tidyplot"
+version = "0.0.1"
+authors = [
+  { name="Atharva Kelkar", email="atharva.kelkar@gmail.com" },
+]
+description = "Tiny package for making your plots look neater"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/atharva-kelkar/tidyplot"
+Issues = "https://github.com/atharva-kelkar/tidyplot/issues"
