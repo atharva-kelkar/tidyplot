@@ -1,6 +1,8 @@
 # Simple library for making plots tidy
 
-Matplotlib's `plt.subplots` makes it very easy to work with plots as object-oriented abstractions. This library lets you format `axes` objects to make them look more tidy with a simple one-line addition to your code.
+Matplotlib's `plt.subplots` makes it very easy to work with plots as object-oriented abstractions. However, most formatting libraries/guidelines for matplotlib do not work with this object-oriented view and instead advocate setting different default matplotlib rcParams depending on your tastes.
+
+This library lets you format `axes` objects to make them look more tidy with a simple one-line addition to your code while providing more fine-grained control over parameters and returns the `axes` object that can be used as you wish.
 
 ## Installation
 
